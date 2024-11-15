@@ -49,6 +49,11 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.felHR85:UsbSerial:6.1.0'
+    implementation('com.github.radomir9720:UsbSerial:4582877') {
+        artifact {
+            classifier = 'release'
+            type = 'aar'
+        }
+    }
 }
 
